@@ -1,0 +1,7 @@
+Temp toplevel domain: consultlieske.com/devwei
+phpMyAdmin: https://p3nlmysqladm002.secureserver.net/grid55/59/index.php
+
+Godaddy nonsense:
+ssh -oHostKeyAlgorithms=+ssh-dss fortytwo@consultlieske.com
+export GIT_SSL_NO_VERIFY=true
+
