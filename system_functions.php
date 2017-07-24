@@ -31,8 +31,8 @@
 		{
 			$a1 = $q1->fetch();
 			//fancy bitmasking
-			if(($rights & $a1['rights']) == $rights) return;
+			if(($rights & $a1['rights']) == $rights) return 1;
 		}
-		header("Location: login.php");
+		return 0;
 	}
 ?>

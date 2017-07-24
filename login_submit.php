@@ -17,6 +17,6 @@
 	}
 	else
 	{
-		echo "wrong user/pass";
+		header("Location: login.php?res=1");
 	}
 ?>

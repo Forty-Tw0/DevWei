@@ -1,5 +1,6 @@
 <html><body>
 <div class="row">
+	<?php if($_GET['res'] == 1) echo "Incorrect login<br>"; ?>
 	<form action="login_submit.php" method="POST">
 		<div>
 			<input name="username" id="username" type="text">
